@@ -1,5 +1,5 @@
 {
-  "name": "@vitalets/google-translate-token",
+  "name": "google-translate-token",
   "version": "1.1.0",
   "description": "A package that generates the necessary token to use the Google Translate API for free",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vitalets/google-translate-token.git"
+    "url": "git+https://github.com/ZyC0R3/google-translate-token.git"
   },
   "keywords": [
     "translate",
@@ -28,9 +28,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vitalets/google-translate-token/issues"
+    "url": "https://github.com/ZyC0R3/google-translate-token/issues"
   },
-  "homepage": "https://github.com/vitalets/google-translate-token#readme",
+  "homepage": "https://github.com/ZyC0R3/google-translate-token#readme",
   "dependencies": {
     "configstore": "^2.0.0",
     "got": "^6.3.0"
