@@ -1,5 +1,5 @@
-# google-translate-token 
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) 
+# google-translate-token
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 A package that generates the necessary token to use the [**Google Translate API for free** :dollar::no_entry_sign:](https://github.com/matheuss/google-translate-api)
 
@@ -11,14 +11,7 @@ This package is the [result](https://github.com/vitalets/google-translate-token/
 
 ## How it works
 
-The token is based on a seed which is updated once per hour and on the text that will be translated. Both are combined – by some strange math – in order to generate a final token (e.g. `820594.703830`) which is used by the API to validate the request. 
-
-
-## Install
-
-```
-npm install @vitalets/google-translate-token
-```
+The token is based on a seed which is updated once per hour and on the text that will be translated. Both are combined – by some strange math – in order to generate a final token (e.g. `820594.703830`) which is used by the API to validate the request.
 
 ## Usage
 
@@ -31,4 +24,11 @@ token.get('Hello').then(console.log);
 
 ## Related
 
-- [`@vitalets/google-translate-api`](https://github.com/vitalets/google-translate-api) – A **free** and **unlimited** API for Google Translate :dollar::no_entry_sign:
+This Version is a Clone of
+- [`@vitalets/google-translate-token`](https://github.com/vitalets/google-translate-token) – A Token fo the API for Google Translate
+And needs
+- [`@vitalets/google-translate-api`](https://github.com/vitalets/google-translate-api) – A free and unlimited API for Google Translate
+
+**This Cloned Version Needs**
+
+- [`ZyC0R3-google-translate-api`](https://github.com/ZyC0R3/google-translate-api) – A free and unlimited API for Google Translate
