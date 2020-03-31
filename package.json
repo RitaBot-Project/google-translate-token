@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/ZyC0R3/google-translate-token#readme",
   "dependencies": {
-    "configstore": "^5.0.1",
+    "configstore": "^2.0.0",
     "got": "^6.3.0"
   },
   "devDependencies": {
