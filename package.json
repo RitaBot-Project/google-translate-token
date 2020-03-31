@@ -1,6 +1,6 @@
 {
   "name": "google-translate-token",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "A package that generates the necessary token to use the Google Translate API for free",
   "main": "index.js",
   "scripts": {
@@ -36,9 +36,9 @@
     "got": "^6.3.0"
   },
   "devDependencies": {
-    "ava": "^3.5.1",
-    "husky": "^3.1.0",
-    "puppeteer": "^1.20.0",
+    "ava": "^2.3.0",
+    "husky": "^3.0.4",
+    "puppeteer": "^1.19.0",
     "xo": "^0.16.0"
   },
   "xo": {
