@@ -16,7 +16,7 @@ The token is based on a seed which is updated once per hour and on the text that
 ## Usage
 
 ``` js
-const token = require('@vitalets/google-translate-token');
+const token = require('@google-translate-token');
 
 token.get('Hello').then(console.log);
 //=> { name: 'tk', value: '159402.284291' }
@@ -25,7 +25,7 @@ token.get('Hello').then(console.log);
 ## Related
 
 This Version is a Clone of
-- [`@vitalets/google-translate-token`](https://github.com/vitalets/google-translate-token) – A Token fo the API for Google Translate
+- [`@vitalets/google-translate-token`](https://github.com/vitalets/google-translate-token) – A Token for the API for Google Translate
 And needs
 - [`@vitalets/google-translate-api`](https://github.com/vitalets/google-translate-api) – A free and unlimited API for Google Translate
 
